@@ -8,10 +8,9 @@
 		<version>4.0.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.queing</groupId>
-	<artifactId>quemange</artifactId>
+	<groupId>com.childsafety</groupId>
+	<artifactId>childsafety</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>quemange</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
