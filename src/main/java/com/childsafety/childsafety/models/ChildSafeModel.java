@@ -13,6 +13,6 @@ public class ChildSafeModel {
     Integer id;
     String name;
     String email;
-    String pass;
+    String passs;
     String who;
 }

@@ -21,4 +21,8 @@ public class ChildSafeController {
     ResponseEntity<?>createchild(@RequestBody ChildSafeModel childSafeModel){
         return new ResponseEntity<>(childSafeService.createcd(childSafeModel), HttpStatus.OK);
     }
+    @PostMapping("/verify")
+    ResponseEntity<?>getids(@RequestBody ChildSafeModel childSafeModel){
+        return new ResponseEntity<>(childSafeService.getidss(childSafeModel.getEmail(),childSafeModel.getPasss()),HttpStatus.OK);
+    }
 }
