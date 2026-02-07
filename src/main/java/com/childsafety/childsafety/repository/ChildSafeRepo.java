@@ -5,7 +5,11 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
 
-public interface ChildSafeRepo extends JpaRepository<ChildSafeModel,Integer> {
-    boolean existsByEmailAndPasss(String email,String passs);
-    Optional<ChildSafeModel> findByEmail(String email);
+public interface ChildSafeRepo extends JpaRepository<ChildSafeModel, Integer> {
+
+    Optional<ChildSafeModel> findByEmailAndPasssAndWho(
+            String email,
+            String passs,
+            String who
+    );
 }
