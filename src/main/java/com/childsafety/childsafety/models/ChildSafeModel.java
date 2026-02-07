@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 @Entity
+@Table(name = "newchild")   // ✅ table name in MySQL
 @Data
 public class ChildSafeModel {
 
